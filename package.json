@@ -1,0 +1,30 @@
+{
+  "name": "oscilloscope-online-v3",
+  "version": "1.0.0",
+  "description": "All-in-one plotting tool",
+  "keywords": [
+    "Oscilloscope",
+    "Online",
+    "Maths",
+    "Graphs",
+    "Plots",
+    "Program",
+    "Serial",
+    "Table",
+    "Data"
+  ],
+  "homepage": "https://github.com/MUmarShahbaz/Oscilloscope-Online-V3#readme",
+  "bugs": {
+    "url": "https://github.com/MUmarShahbaz/Oscilloscope-Online-V3/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MUmarShahbaz/Oscilloscope-Online-V3.git"
+  },
+  "license": "GPL-3.0",
+  "author": "MUmarShahbaz",
+  "type": "commonjs",
+  "dependencies": {
+    "typescript": "^6.0.3"
+  }
+}
