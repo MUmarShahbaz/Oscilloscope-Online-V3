@@ -25,6 +25,7 @@
   "author": "MUmarShahbaz",
   "type": "commonjs",
   "dependencies": {
+    "@types/w3c-web-serial": "^1.0.8",
     "typescript": "^6.0.3"
   }
 }
