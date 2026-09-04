@@ -1,0 +1,2 @@
+- [ ] Create and upload Favico
+- [ ] Create and upload 1200x630 OG image
