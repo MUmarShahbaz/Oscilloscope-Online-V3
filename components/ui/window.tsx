@@ -5,7 +5,6 @@ export interface WindowMockupProps {
   children: ReactNode;
   title?: string;
   className?: string;
-  containerClassName?: string;
   headerClassName?: string;
   bodyClassName?: string;
   actionButtons?: ReactNode;
@@ -22,7 +21,7 @@ export function WindowMockup({
   return (
     <div
       className={cn(
-        "relative mx-auto w-full max-w-5xl overflow-hidden rounded-2xl border-2 border-primary/15 bg-card shadow-xl shadow-primary/10",
+        "relative mx-auto w-full overflow-hidden rounded-2xl border-2 border-primary/15 bg-card shadow-xl shadow-primary/10",
         className
       )}
     >

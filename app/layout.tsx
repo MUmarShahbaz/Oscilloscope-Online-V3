@@ -77,9 +77,8 @@ export const metadata: Metadata = {
 
 const PAGES = [
   { href: '/', text: 'Home' },
-  { href: '/about', text: 'About' },
-  { href: '/start', text: 'Start' },
-  { href: 'https://mumarshahbaz.com', text: 'More Projects' }
+  { href: '/plotter', text: 'Plotter' },
+  { href: 'https://mumarshahbaz.com/projects/', text: 'More Projects' }
 ];
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

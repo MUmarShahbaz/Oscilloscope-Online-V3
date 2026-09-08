@@ -93,7 +93,7 @@ export function NavBar({nav_items}:{nav_items: Array<{href: string, text: string
 
 export function Footer({nav_items}:{nav_items: Array<{href: string, text: string}>}) {
   return (
-    <footer className='z-50 border-t border-primary/10 bg-card flex flex-col shadow-sm shadow-primary/15'>
+    <footer className='z-50 border-t border-primary/50 bg-card flex flex-col shadow-[0_-10px_15px_-3px] shadow-primary/15'>
       <div className='w-full max-w-7xl mx-auto px-6 py-12 flex flex-col md:flex-row items-center justify-between gap-8'>
         {/* Brand Section */}
         <div className='flex flex-col items-center md:items-start gap-2'>
