@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono, Noto_Sans, Roboto_Slab } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
-import { NavBar } from "@/components/layout/navigation";
+import { Footer, NavBar } from "@/components/layout/navigation";
 
 const robotoSlabHeading = Roboto_Slab({subsets:['latin'],variable:'--font-heading'});
 
@@ -75,6 +75,13 @@ export const metadata: Metadata = {
   },
 };
 
+const PAGES = [
+  { href: '/', text: 'Home' },
+  { href: '/about', text: 'About' },
+  { href: '/start', text: 'Start' },
+  { href: 'https://mumarshahbaz.com', text: 'More Projects' }
+];
+
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
@@ -82,8 +89,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       className={cn("h-full", "antialiased", geistSans.variable, geistMono.variable, "font-sans", notoSans.variable, robotoSlabHeading.variable)}
     >
       <body className="min-h-full flex flex-col">
-        <NavBar/>
+        <NavBar nav_items={PAGES}/>
         {children}
+        <Footer nav_items={PAGES}/>
       </body>
     </html>
   );
